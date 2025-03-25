@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourav Portfolio</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">#GOURAV</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="animate-name">Gourav Samal</span></h1>
+            <h2> Python Full-Stack Developer & Data Enthusiast</h2>
+            <p>I specialize in building modern web applications with frontend and backend technologies, focusing on efficient data handling and analytics.</p>
+            <a href="documents/GOURAV RANJAN SAMAL1 new resume.pdf" class="buttonDownload" download>Download My Resume</a>
+
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="centered-title">About Me</h2>
+        <div class="about-content centered">
+            <p>I am a <strong>Full-Stack Developer</strong> with expertise in frontend technologies, backend development, and data engineering.</p>
+            <p>Holding a <strong>B.Tech in Computer Science & Engineering</strong>, I have built several projects in <strong>React, Python, Django, and SQL,MongoDB</strong>.</p>
+            <p>Currently exploring <strong>Data Analytics & AI</strong> to enhance my development skills.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card"><img src="images/html.png" alt="HTML"><h3>HTML</h3></div>
+            <div class="skill-card"><img src="images/css1.png" alt="CSS"><h3>CSS</h3></div>
+            <div class="skill-card"><img src="images/javascript.png" alt="JavaScript"><h3>JavaScript</h3></div>
+            <div class="skill-card"><img src="images/react.png" alt="React"><h3>React</h3></div>
+            <div class="skill-card"><img src="images/Python.png" alt="Python"><h3>Python</h3></div>
+            <div class="skill-card"><img src="images/Django.png" alt="Django"><h3>Django</h3></div>
+            <div class="skill-card"><img src="images/sql.png" alt="SQL"><h3>SQL</h3></div>
+            
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <h2 class="centered-title">My Projects</h2>
+        <div class="projects-container centered">
+            <div class="project-card">
+                <h3>TaskBuddy</h3>
+                <a href="https://github.com/yourgithubusername/TaskBuddy" target="_blank">Code</a>
+            </div>
+            <div class="project-card">
+                <h3>CampusSQL</h3>
+                <a href="https://github.com/yourgithubusername/CampusSQL" target="_blank">Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Meal Mate</h3>
+                <a href="https://github.com/yourgithubusername/MealMate" target="_blank">Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Jarvis Voice Assistant</h3>
+                <a href="https://github.com/yourgithubusername/Jarvis" target="_blank">Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Login App</h3>
+                <a href="https://github.com/yourgithubusername/LoginApp" target="_blank">Code</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:gouravsamal427@gmail.com">gouravsamal427@gmail.com</a></p>
+        <p>LinkedIn: <a href="www.linkedin.com/in/gourav-ranjan-samal-145483209" target="_blank">Gourav Ranjan Samal</a></p>
+        <form class="contact-form" id="contactForm" action="/contact" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+            <input type="email" id="email" name="email" placeholder="Your Email" required />
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" id="submitBtn">Send Message</button>
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Gourav Ranjan Samal | All Rights Reserved</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/gourav-ranjan-samal-145483209" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://wa.me/7735617910" target="_blank">
+                <img src="images/whatsapp.png" alt="WhatsApp">
+            </a>
+            <a href="https://github.com/samal2002" target="_blank">
+                <img src="images/github.png" alt="GitHub">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
